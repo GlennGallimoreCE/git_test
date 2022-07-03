@@ -23,7 +23,7 @@ git add <filename> = adds specified file to the staging area (green)
 git commit -m "comment" = Commits your changes in the staging area
 *** always check with git status after a commit to make sure your working tree is clean.
 
-
+git log = details on activity
 
 
 
