@@ -25,6 +25,9 @@ git commit -m "comment" = Commits your changes in the staging area
 
 git log = details on activity
 
+git push origin main = pushes to main respositry
+
+
 
 
 
