@@ -1,0 +1,30 @@
+If you're like me and are a total noob in Linux/Git this is my cheatsheet
+going forward with my training.
+
+
+cd = goes in a directory by one
+cd/something/something  =  Can be specific
+cd .. = goes up a directory
+cd ~  = goes back to main
+
+mkdir = makes a folder in a specific directory (ex. mkdir New_folder)
+touch = creates any file in a specific directory (ex. touch file.txt)
+
+
+GIT commands
+------------------------------------
+git -- version = tells you latest version of Git
+git config = runs a configuration
+git clone = creates a clone of your Github URL, be sure to copy it first!
+git remote -v = Displays the URL of the respositry
+
+git status = tracks files.  Red text means it's not staged, Green means staged
+git add <filename> = adds specified file to the staging area (green)
+git commit -m "comment" = Commits your changes in the staging area
+
+
+
+
+
+
+
