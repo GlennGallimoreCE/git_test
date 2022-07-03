@@ -21,6 +21,8 @@ git remote -v = Displays the URL of the respositry
 git status = tracks files.  Red text means it's not staged, Green means staged
 git add <filename> = adds specified file to the staging area (green)
 git commit -m "comment" = Commits your changes in the staging area
+*** always check with git status after a commit to make sure your working tree is clean.
+
 
 
 
