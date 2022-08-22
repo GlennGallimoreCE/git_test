@@ -1,0 +1,220 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    
+}
+
+.textTitle {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+
+.belowSagaTitle {
+    margin: auto;
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6rem;
+}
+
+
+
+.inspiredBy, .instructions {
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+
+#gameGrid{
+    display: flex;
+    justify-content: center;
+}
+
+.battleGrid {
+    color: whitesmoke;
+    margin: auto;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    border: 15px solid white;
+    border-radius: 10px;
+    
+    
+    
+}
+/*------ obstacles -----------------------------------------------------*/
+
+.bars {
+    width: 20px;
+    height: 115px;
+    background-color: white;
+    left: 580px;
+    position: relative;
+    animation: block 4.5s linear infinite;
+
+}
+
+@keyframes block {
+    0% {left:580px}
+    100% {left:-50px}
+}
+
+.bars1 {
+    width: 20px;
+    height: 115px;
+    background-color: white;
+    right: 580px;
+    position:relative;
+    animation: block1 7s linear infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes block1 {
+    100% {left:600px}
+    0% {left:-50px}
+}
+
+.bars2 {
+    
+    width: 20px;
+    height: 115px;
+    background-color: white;
+    left: 580px;
+    position:relative;
+    animation: block2 7s linear infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes block2 {
+    0% {left:600px}
+    100% {left:-50px}
+}
+
+.bars3 {
+    width: 20px;
+    height: 115px;
+    background-color: white;
+    right: 580px;
+    position:relative;
+    animation: block3 4.6s linear infinite;
+    
+
+}
+
+@keyframes block3 {
+    100% {left:600px}
+    0% {left:-50px}
+}
+
+
+
+#you {
+    background-color:red;
+    font-size: 30px;
+    bottom: 250px;
+    left: 280px;
+    display: flex;
+    position: relative;
+    width: 25px;
+    height: 25px;
+
+
+    
+    
+}
+
+.animate {
+    animation: moveUp 500ms infinite; 
+}
+
+@keyframes moveUp {
+    0% {margin-top: 1%;}
+    100%{margin-top: 3%;}
+}
+
+
+/*------ rest of the game -----------------------------------------------------*/
+.screen {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    border: 15px solid white;
+    margin: auto;
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: auto;
+    padding: 4px;
+    width: 600px;
+    height: 450px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.scoreText {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}       
+
+.buttonInterface {
+    margin: 1rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+#buttons {
+    background-color: black;
+    padding: auto;
+    width: 150px;
+    height: 60px;
+    color: orange;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    border: 2px solid orange;
+    font-size: 2rem;
+    
+    
+    
+}
+
+#buttons a {
+    text-decoration: none;
+    color: orange;
+}
+
+#buttons:hover {
+    background-color: rgb(49, 184, 94);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
